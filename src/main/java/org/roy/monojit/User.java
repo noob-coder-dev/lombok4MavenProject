@@ -1,11 +1,12 @@
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+package org.roy.monojit;
+
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
+@Data
 @Builder
 public class User {
     private String firstName;
